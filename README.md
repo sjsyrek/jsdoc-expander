@@ -2,8 +2,8 @@
 
 There are two snippets:
 
-`javascriptJSDoc` contains the JavaScript code that produces the text output for the snippet
-`@jsdoc` is the abbreviation you should use for the snippet itself (rename this to whatever you want)
+- `javascriptJSDoc` contains the JavaScript code that produces the text output for the snippet
+- `@jsdoc` is the abbreviation you should use for the snippet itself (rename this to whatever you want)
 
 The snippet will probably not function if you try to expand the JavaScript code by itself. This code runs within TextExpander's native JavaScript environment. It does not run Apple's JavaScript for Automation (JSA), which I can't yet get to work. The enclosing `@jsdoc` snippet consists entirely of a nested snippet macro:
 
