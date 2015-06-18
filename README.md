@@ -11,7 +11,7 @@ The snippet will probably not function if you try to expand the JavaScript code 
 %snippet:javascriptJSDoc%
 ```
 
-You could add a `%filltop%` macro just before this (on the same line to avoid line breaks) if you want more of an interface look, but I like having a preview of what the expanded text will look like.
+You could add a `%filltop%` macro just before this (on the same line to avoid line breaks) if you want more of an interface look, but I like having a preview of how the expanded text will appear.
 
 Note that the JavaScript builds up the expansion text by creating TextExpander macros. It seems necessary to keep the percent signs (%) separate from the rest of any given text string, lest TextExpander interpret that as a macro before your code has fully executed.
 
