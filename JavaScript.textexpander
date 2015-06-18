@@ -34,7 +34,6 @@
   '@return',
   '@type']
 
-
 var types = [
   '{string}',
   '{number}',
