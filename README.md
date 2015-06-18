@@ -3,10 +3,10 @@
 
 Expand a simple abbreviation with TextExpander 5.0 to automatically insert custom JSDoc comments into your JavaScript code. [TextExpander 5.0][1] is required for these snippets to function, as they take advantage of its new JavaScript scripting features. The inserted text will look like this:
 ```
-/\*\*
- \* 
- \* @const {string} 
- \*/
+/**
+ * 
+ * @const {string} 
+ */
 ```
 Options are available for many common [JSDoc][2] and [Google Closure Compiler][3] tags and type expressions. There are two snippets:
 
