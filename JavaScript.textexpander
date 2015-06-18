@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>JavaScript</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>javascriptJSDoc</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-06-17T11:46:38Z</date>
+			<key>label</key>
+			<string>JSDoc Comment Blocks</string>
+			<key>modificationDate</key>
+			<date>2015-06-18T12:50:41Z</date>
+			<key>plainText</key>
+			<string>var tags = [
+  '@const',
+  '@constructor',
+  '@enum',
+  '@implements',
+  '@interface',
+  '@param',
+  '@private',
+  '@return',
+  '@type']
+
+
+var types = [
+  '{string}',
+  '{number}',
+  '{boolean}',
+  '{symbol}',
+  '{Array&lt;&gt;}',
+  '{Object}',
+  '{function()}',
+  '{*}',
+  '{?}',
+  '{undefined}']
+
+var tagOptions = tags.join(':')
+var typeOptions = types.join(':')
+
+var blockTagPopup = '%' + 'fillpopup:name=Block Tag:' + tagOptions + '%'
+var typeExpressionPopup = '%' + 'fillpopup:name=Type Expression:' + typeOptions + '%'
+var typeExpressionOptionalSection = ' %' + 'fillpart:name=Type :default=no' + '%' + typeExpressionPopup + '%' + 'fillpartend' + '%'
+var otherTypeOptionalSection = ' %' + 'fillpart:name=Other Type :default=no%{' + '%' + 'filltext:name=Other Type:width=15%' + '}%' + 'fillpartend' + '%'
+
+var popup = blockTagPopup + typeExpressionOptionalSection + otherTypeOptionalSection
+var expand = '/**\n * %|\n * ' + popup + '\n */'
+
+TextExpander.appendOutput(expand)</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>5E7923F4-9B75-419B-B7F8-1027CE1CE413</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>@jsdoc</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-06-18T10:18:05Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2015-06-18T12:40:39Z</date>
+			<key>plainText</key>
+			<string>%snippet:javascriptJSDoc%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>B8E9A46C-245C-43BE-B70A-E0F876D670AC</string>
+		</dict>
+	</array>
+</dict>
+</plist>
